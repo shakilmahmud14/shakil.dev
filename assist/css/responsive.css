@@ -1,0 +1,59 @@
+@media screen and (max-width:767px) {
+
+/*	side-navbar area start hare*/
+	.side-navbar {
+		width: 100%;
+		height: initial;
+		position: fixed;
+		float: none !important;
+		display: block !important;
+		overflow: hidden !important;
+	}
+	.side-nav {
+		width: 100%;
+		overflow: hidden !important;
+		display: block !important;
+	}
+
+	.social-icon {
+		display: none;
+	}
+	.share {
+		display: none;
+	}
+
+	.logo {
+		width: 100%;
+		display:flex;
+		justify-content: space-between;
+		overflow: hidden !important;
+	}
+	.logo img {
+		width: 40%;
+		padding: 0;
+	}
+	.toggle-btn  {
+		margin: 0 !important;
+	}
+	.toggle-btn p {
+		opacity: 1;
+	}
+	.container {
+		padding-top: 70px;
+	}
+	.main-navbar {
+		width: 100%;
+		height: initial;
+		text-align: center;
+		padding-top: 70px;
+	}
+	.navbar-nav {
+		width: 100%;
+		text-align: center;
+	}
+	.nav-logo img {
+		width: 50%;
+	}
+/*	navbar area end hare*/
+
+}
