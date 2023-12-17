@@ -9,13 +9,12 @@
 	src: url(fonts/Poppins-Medium.ttf);
 }
 
-
-body{
-	background: black;
-}
 ::selection {
 	background: yellow;
 	color: #000;
+}
+html {
+	scroll-behavior: smooth;
 }
 /*	navbar area style start hare*/
 .side-navbar {
@@ -23,7 +22,7 @@ body{
 	height: 100vh;
 	position: fixed;
 	text-align: center;
-	z-index: 55;
+	z-index: 1000;
 }
 .side-nav {
 	width: 80px;
@@ -105,11 +104,12 @@ body{
 .main-navbar {
 	width: 400px;
 	height: 100vh;
-	background: rgba(44, 43, 44, 0.7);
+	background: rgba(44, 43, 44, 0.8);
 	text-align: right;
 	backdrop-filter: blur(4px);
 	display: none;
 	position: fixed;
+	z-index: 999;
 }
 .navbar-nav {
 	width: 80%;
@@ -454,4 +454,97 @@ nav {
 .btn:hover {
     padding-left: 60px;
     width: 200px !important;
+}
+/* 	feature area style end hare*/
+/*project area style start hare*/
+
+.parallax-bgarea {
+	width: 100%;
+	z-index: 5;
+}
+.project-area {
+	position: relative;
+}
+.overly-2 {
+	position: absolute;
+	width: 100%;
+	height: 100%;
+	background: rgba(0, 0, 0, 0.3);
+	top: 0;
+	left: 0;
+	z-index: -11;
+}
+.background-right {
+	width: 40%;
+	height: 110%;
+	background: #2A2A2E;
+	position: absolute;
+	top: 0;
+	left: 0;
+	z-index: -3;
+}
+.parallax-conent {
+	height: 60vh;
+	display: flex;
+	justify-content: center;
+	flex-direction: column;
+}
+.parallax-conent h2 {
+	color: #fff;
+	font-family: Poppins;
+	font-weight: 800;
+	font-size: 40px;
+	text-transform: uppercase;
+
+}
+.parallax-conent span {
+	color: #FAC921;
+}
+.dotten::after {
+	content: '';
+	top: 0px;
+	left: 0;
+	bottom: 30px;
+	width: 50px;
+	height: 5px;
+	display: block;
+	border-bottom: 2px dotted #fff;
+	
+}
+.parallax-conent p {
+	font-family: Poppins;
+	font-size: 12px;
+	line-height: 20px;
+	padding-top: 30px;
+	color: rgba(225, 225, 225, .7);
+}
+
+/*	countdown style start*/
+.project-content {
+	padding-bottom: 50px;
+}
+.items-1 h1 {
+	color: #fff;
+	font-weight: bold;
+}
+.items-1 p {
+	font-family: Titillium-Web;
+	color: #fff;
+	font-size: 12px;
+	font-weight: 500;
+	text-transform: uppercase;
+	background: rgba(42, 42, 46, 0.2);
+	font-weight: bold;
+	padding: 10px;
+	position: relative;
+}
+.items-1 p::before {
+	content: '';
+	position: absolute;
+	left: -20px;
+	top: 50%;
+	width: 20px;
+	height: 3px;
+	background: #FAC921;
+	display: block;
 }

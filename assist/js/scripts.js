@@ -16,9 +16,9 @@ jQuery(document).ready(function(){
 			fade: 700
 	});
 
-
-
-
+	$('.parallax-bgarea').parallax({
+				imageSrc: '../../images/bg-1.jpg'
+			});
 
 
 
