@@ -17,6 +17,9 @@ html {
 	scroll-behavior: smooth;
 }
 /*	navbar area style start hare*/
+
+/*	side nav start hare*/
+
 .side-navbar {
 	width: 70px;
 	height: 100vh;
@@ -101,6 +104,11 @@ html {
 	color: rgba(0, 0, 0, 1.0);
 	transition: .3s;
 }
+
+/*side nav end hare*/
+
+/*side main nav start hare*/
+
 .main-navbar {
 	width: 400px;
 	height: 100vh;
@@ -138,6 +146,9 @@ html {
 .sideNav {
 	text-align: left;
 }
+
+/*	side copyright-content start hare*/
+
 .copyright-content p {
 	margin: 0;
 	display: inline-block;
@@ -166,12 +177,12 @@ html {
 .sideNav a:hover::before {
 	width: 200px;
 }
-
 /*	navbar style end hare*/
+
+
 /*feature area style start hare*/
-
-
 /*	parallax-conent hare*/
+
 .feature-content {
 	width: 100%;
 	height: 90vh;
@@ -463,14 +474,14 @@ nav {
     padding-left: 60px;
     width: 200px !important;
 }
-/* 	feature area style end hare*/
+
 /*project area style start hare*/
 
 .parallax-bgarea {
-	width: 100%;
+	width: 100%;;
 	z-index: 5;
 }
-.project-area {
+.project-box {
 	position: relative;
 }
 .overly-2 {
@@ -491,13 +502,13 @@ nav {
 	left: 0;
 	z-index: -3;
 }
-.parallax-conent {
+.parallax-box-conent {
 	height: 60vh;
 	display: flex;
 	justify-content: center;
 	flex-direction: column;
 }
-.parallax-conent h2 {
+.parallax-box-conent h2 {
 	color: #fff;
 	font-family: Poppins;
 	font-weight: 800;
@@ -505,7 +516,7 @@ nav {
 	text-transform: uppercase;
 
 }
-.parallax-conent span {
+.parallax-box-conent span {
 	color: #FAC921;
 }
 .dotten::after {
@@ -519,7 +530,7 @@ nav {
 	border-bottom: 2px dotted #fff;
 	
 }
-.parallax-conent p {
+.parallax-box-conent p {
 	font-family: Poppins;
 	font-size: 12px;
 	line-height: 20px;
@@ -528,7 +539,7 @@ nav {
 }
 
 /*	countdown style start*/
-.project-content {
+.project-box-content {
 	padding-bottom: 50px;
 }
 .items-1 h1 {
@@ -555,4 +566,9 @@ nav {
 	height: 3px;
 	background: #FAC921;
 	display: block;
+}
+/*	about are end hare*/
+
+.section-resume {
+	margin-top: 10vh;
 }
