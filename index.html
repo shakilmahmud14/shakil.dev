@@ -20,7 +20,7 @@
 </head>
 <body>
 		<!-- side navbar area start hare -->
-<div class="side-navbar ">
+<div class="side-navbar" id="my-scrollbar">
 	<div class="side-nav d-flex">
 		<div class="logo mt-3">
 			<div>
@@ -34,15 +34,15 @@
 		</div>
 		<div class="social-icon">
 			<div class="facebook">
-				<a href="https://www.facebook.com/shakilmahmud141">
+				<a href="https://www.facebook.com/shakilmahmud141" target="-blank">
 					<i class="fa-brands fa-facebook-f"></i>
 				</a>
 			</div>
 			<div class="linkdin">
 				<a href="https://www.linkedin.com/in/shakil-mahmud-4a2358210/" target=""><i class="fa-brands fa-linkedin-in"></i></a>
 			</div>
-			<div class="instagram">
-				<a href="https://instagram.com/web_designer_shakil" target="-blank"><i class="fa-brands fa-instagram"></i></a>
+			<div class="github">
+				<a href="https://github.com/shakilmahmud14" target="-blank"><i class="fa-brands fa-github"></i></a>
 			</div>
 			<div class="skype">
 				<a href="https://join.skype.com/invite/x3T0cCqZKy3y"target="-blank"><i class="fa-brands fa-skype"></i></a>
@@ -116,7 +116,7 @@
 		<div class="navItem">
 			<ul>
 				<li class="nav-item"><a class="nav-link" href="#">Top <i class="fa-solid fa-sort-up"></i></a></li>
-				<li class="nav-item"><a class="nav-link" href="#">About</a></li>
+				<li class="nav-item"><a class="nav-link" href="#about">About</a></li>
 				<li class="nav-item"><a class="nav-link" href="#">Resume</a></li>
 				<li class="nav-item"><a class="nav-link" href="#">Skills</a></li>
 				<li class="nav-item"><a class="nav-link" href="#">Project</a></li>
@@ -126,7 +126,7 @@
 	</div>
 </nav>
 	<!-- nav area end hare -->
-<div class="about-area">
+<div class="about-area" id="about">
 	<div class="container">
 		<div class="about-content py-4">
 			<div class="row">
@@ -276,6 +276,11 @@
 	<div class="overly-2"></div>
 	<div class="background-right "></div>
 </div>
+<div class="container">
+	<div class="bg-light">
+		<span id="count-box">1500</span>
+	</div>
+</div>
 	<!-- main jquary file -->
 <script src="assist/js/jquery-main.js"></script>
 	<!-- bootstrap bundle js file -->
@@ -285,7 +290,10 @@
 	<!-- parallax-bg js file -->
 <script src="assist/js/parallax.js"></script>	
 		<!-- countdown js file -->
+<script src="assist/js/jquery.countupcircle.js"></script>
 <script src="assist/js/counter.js"></script>	
+		<!-- smooth scroll -->
+	
 	<!-- main javascript jile -->
 	<script src="assist/js/scripts.js"></script>
 </body>

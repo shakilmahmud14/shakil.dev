@@ -169,6 +169,9 @@ html {
 
 /*	navbar style end hare*/
 /*feature area style start hare*/
+
+
+/*	parallax-conent hare*/
 .feature-content {
 	width: 100%;
 	height: 90vh;
@@ -216,6 +219,8 @@ html {
 	}
 
 }
+		/*parallax-conent end hare*/
+
 .content {
 	height: 100%;
 	display: flex;
@@ -235,6 +240,8 @@ html {
 }
 
 /*feature area style end hare*/
+
+/*	nav area style start hare*/
 nav {
 	position: sticky;
 	top: 0;
@@ -315,6 +322,7 @@ nav {
 /*nav area style end hare*/
 
 /*	about area style start hare*/
+
 .about-area {
 	background: #ffffff;
 }

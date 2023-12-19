@@ -22,12 +22,13 @@ jQuery(document).ready(function(){
 
 
 
+		// for smooth scolling
 
+	// var Scrollbar = window.Scrollbar;
 
-
-
-
-
+  	// Scrollbar.init(document.querySelector('#my-scrollbar'), {
+  	// 	damping: 0.5,
+  	// });
 
 
 
