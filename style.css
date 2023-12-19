@@ -203,6 +203,17 @@ html {
 	background: rgba(0, 0, 0, .3);
 	z-index: -6;
 }
+.overly-bg {
+	width: 300px;
+	height: 100px;
+	margin-left: auto;
+	margin-right: 5%;
+	margin-top: 10%;
+}
+.overly-bg img {
+	width: 100%;
+	opacity: .3;
+}
 @keyframes bgChange {
 	0%{
 		background-image: url('images/bg-1.jpg');
@@ -286,6 +297,15 @@ nav {
 	padding-left: 8%;
 	text-align: center;
 	padding-right: 15px;
+	position: relative;
+}
+.lets-start {
+	position: absolute;
+	top: 75%;
+	left: 12%;	
+}
+.lets-start a {
+	background: rgba(250, 201, 33, .8);
 }
 .mouse-scrol i {
 	font-size: 30px;
@@ -327,6 +347,10 @@ nav {
 }
 .navItem ul li a:hover {
 	color: #FAC921;
+	transition: 0.4s;
+}
+.navItem a:hover::before {
+	background: #FAC921;
 	transition: 0.4s;
 }
 
