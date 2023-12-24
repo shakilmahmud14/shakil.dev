@@ -687,3 +687,14 @@ nav {
 .experience-details p {
 	margin: 0;
 }
+.btn-2 {
+	width: 222px !important;
+}
+.btn-2:hover {
+	width: 255px !important;
+}
+.resume-btn2 {
+	display: none;
+}
+/*work experience style end hare*/
+/*resume area styyle end hare*/

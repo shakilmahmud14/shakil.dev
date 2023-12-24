@@ -63,7 +63,12 @@
 	}
 
 
-
+	.resume-btn2 {
+		display: initial;
+	}
+	.resume-btn {
+		display: none;
+	}
 
 
 
@@ -145,8 +150,18 @@
 	.nav-2 {
 		display: none;
 	}
+/*	content nav end hare*/
+.resume-btn2 {
+	display: initial;
+}
+.resume-btn {
+	display: none;
+}
+/*resume area start hare*/
 
-
+.work-experience-area h3 {
+	margin-top: 20px;
+}
 
 
 
