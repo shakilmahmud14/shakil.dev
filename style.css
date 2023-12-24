@@ -10,7 +10,7 @@
 }
 
 ::selection {
-	background: yellow;
+	background: #FAC921;
 	color: #000;
 }
 html {
@@ -552,7 +552,6 @@ nav {
 	height: 5px;
 	display: block;
 	border-bottom: 2px dotted #fff;
-	
 }
 .parallax-box-conent p {
 	font-family: Poppins;
@@ -698,3 +697,59 @@ nav {
 }
 /*work experience style end hare*/
 /*resume area styyle end hare*/
+
+/*skills area style start hare*/
+.skills-area {
+	margin-top: 40px;
+	margin-bottom: 40px;
+	position: relative;
+}
+.skills-overly {
+	position: absolute;
+	width: 100%;
+	height: 100%;
+	background: rgba(0, 0, 0, 0.3);
+	z-index: -2;
+}
+.skills-right-bg {
+	width: 40%;
+	height: 115%;
+	background: #2A2A2E;
+	position: absolute;
+	top: 0;
+	right: 0;
+	z-index: -1;
+}
+.section-cnt-skills {
+	display: flex;
+	flex-direction: column;
+	height: 480px;
+	justify-content: center;
+	align-items: end;
+}
+.section-cnt-skills h2 {
+	color: #fff;
+	text-transform: uppercase;
+	font-family: Poppins;
+	font-size: 40px;
+	font-weight: 800;
+}
+.section-cnt-skills h2 span {
+	color: #FAC921;
+	padding-top: 30px;
+}
+.dotten-2::after {
+	content: '';
+	margin-left: auto;
+	width: 50px;
+	height: 5px;
+	display: block;
+	border-bottom: 2px dotted #fff;
+}
+.section-cnt-skills p {
+	padding-top: 30px;
+	text-align: right;
+	color: rgba(255, 255, 255, 0.71);
+	font-size: 12px;
+	line-height: 24px;
+}
