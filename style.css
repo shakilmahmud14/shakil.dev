@@ -146,7 +146,24 @@ html {
 .sideNav {
 	text-align: left;
 }
+.menuText {
+	font-family: Titillium-Web;
+	font-size: 14px;
+	color: #DDDDDD;
+}
+.menuText .close {
+	display: none;
+}
+.close-on .menu-on {
+	display: none;
+}
+.close-on .close {
+	display: block !important;
+	font-size: 14px;
+	color: #DDDDDD;
+	padding-top: 5PX;
 
+}
 /*	side copyright-content start hare*/
 
 .copyright-content p {
@@ -502,7 +519,7 @@ nav {
 /*project area style start hare*/
 
 .parallax-bgarea {
-	width: 100%;;
+	width: 100%;
 	z-index: 5;
 }
 .project-box {
@@ -752,4 +769,34 @@ nav {
 	color: rgba(255, 255, 255, 0.71);
 	font-size: 12px;
 	line-height: 24px;
+}
+.section-skills-item {
+	padding-top: 60px;
+	z-index: 23;
+	overflow: hidden;
+}
+.section-skills-item h2 {
+	font-family: Titillium-Web;
+	text-transform: uppercase;
+	font-size: 30px;
+	font-weight: 800;
+	padding-bottom: 20px;
+}
+.section-skills-item h2 span {
+	color: #FBCA14;
+}
+.line-progress h3 {
+	font-family: Poppins;
+	font-size: 18px;
+	font-weight: 800;
+}
+.Professional-Skills h2 {
+	font-family: Titillium-Web;
+	text-transform: uppercase;
+	font-size: 30px;
+	font-weight: 800;
+	padding-bottom: 20px;
+}
+.Professional-Skills h2 span {
+	color: #FBCA14;
 }
