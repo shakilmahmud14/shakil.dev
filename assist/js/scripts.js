@@ -1,14 +1,54 @@
 jQuery(document).ready(function(){
 
-	// navbar toggler js start hare
+
+	$('body').jpreLoader({
+
+	  // default CSS classes for the preloader
+	  preMainSection:     '#main-preloader',
+	  prePerText:         '.preloader-percentage-text',
+	  preBar:             '.preloader-bar',
+
+	  // show percentage value
+	  showPercentage:     true,
+
+	  // enable debug mode
+	  debugMode:          false,
+
+	  // function
+	  splashFunction:     function() {}
+	  
+	});
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+	// side navbar toggler js start hare
 
 	jQuery(".toggle-btn").click(function(){
 		jQuery(".main-navbar").slideToggle()
-		// jQuery(".menuText").text("Close").css("opacity","1");
 		jQuery(".menuText").toggleClass("close-on").css("opacity","1");
 	})
 
-	// navbar js end hare
+	//side navbar js end hare
+	// main navbar
+	jQuery(".nav-link").click(function(){
+		jQuery(".nav-link").removeClass("active");
+		jQuery(this).addClass("active")
+	})
+
+
 	$(window).scroll(function(){
 		var htd = $(window).scrollTop();
 
@@ -65,6 +105,39 @@ jQuery(document).ready(function(){
 
 	})
 	
+	jQuery(window).scroll(function(){
+
+		var utd = jQuery(window).scrollTop();
+
+		if ( utd > 500) {
+			$(".progress-bar").loading();	
+		} else {
+		}
+
+
+	})
+	
+		jQuery(".percent").percentageLoader({
+			   valElement: 'p',
+			   strokeWidth: 25,
+			   bgColor: '#d9d9d9',
+			   ringColor: '#d53f3f',
+			   textColor: '#9a9a9a',
+			   fontSize: '12px',
+			   fontWeight: 'normal',
+			   window: 500,
+			 });
+
+
+
+
+
+
+
+
+
+
+
 	
 
 
