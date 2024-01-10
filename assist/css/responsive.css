@@ -171,9 +171,32 @@
 .technical-skills-content {
 	padding-bottom: 20px;
 }
-
-
-
+/*design area end hare*/
+/*project area responsive st hare*/
+.project-title h2 {
+	font-size: 25px;
+}
+.project-title h2::after {
+	content: "";
+	width: 50%;
+}
+.project-des {
+	color: #D1D4D5 !important;
+	font-family: Poppins;
+}
+.dp-content {
+	padding-left: 15px;
+}
+.dp-content h2 {
+	font-size: 20px;
+}
+.dp-content p {
+	font-size: 14px;
+}
+.dp-content .site-btn {
+	padding: 5px 30px;
+	font-size: 10px;
+}
 
 
 
