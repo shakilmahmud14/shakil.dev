@@ -813,10 +813,38 @@ nav {
 	text-transform: uppercase;
 	font-size: 30px;
 	font-weight: 800;
-	padding-bottom: 20px;
 }
 .section-skills-item h2 span {
 	color: #FBCA14;
+}
+.skills-name p {
+	color: #9397A8;
+	font-family: Poppins;
+	font-size: 13px;
+	margin: 0;
+}
+.skills-name {
+	border-left: 5px solid #FBCA14;
+	padding-top: 7px;
+	padding-bottom: 5px;
+}
+.ci-num {
+	float: left;
+	width: 100%;
+	position: relative;
+	margin-top: 40px;
+}
+.ci-num span {
+	position: absolute;
+	left: 0;
+	opacity: 0.2;
+	text-transform: uppercase;
+	font-weight: 900;
+	font-size: 44px;
+	letter-spacing: 6px;
+	transform: rotate(-90deg);
+	color: #666;
+	font-family: 'Poppins' sans-serif;
 }
 .line-progress h3 {
 	font-family: Poppins;
@@ -833,8 +861,42 @@ nav {
 .Professional-Skills h2 span {
 	color: #FBCA14;
 }
+.circle-progressbar {
+	padding-top: 40px;
+}
 
+.circle-progressbar-item p {
+	margin-top: 10px;
+	font-family: Titillium-Web;
+	padding: 3px;
+	border: 1px solid #9397A8;
+	color: #9397A8;
+}
+.title-desing {
+	display: flex;
+	flex-direction: column;
+	justify-content: center;
+	padding: 30px 0px;
+}
+.design-skills {
+	padding-top: 40px;
+	padding-bottom: 20px;
+}
 
+.title-desing h2 {
+	padding-bottom: 0px;
+}
+
+.title-desing p {
+	color: #9397A8;
+}
+.design-circlebar p {
+	text-transform: uppercase;
+	font-family: Poppins;
+	font-size: 13px;
+}
+
+/*skills area style end hare*/
 
 
 
@@ -865,12 +927,3 @@ nav {
 	border-radius: 50%;
 }
 
-.circle-progressbar {
-	padding-top: 40px;
-}
-
-.circle-progressbar-item p {
-	margin: 0;
-	font-family: Titillium-Web;
-	padding: 5px;
-}

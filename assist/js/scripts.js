@@ -48,41 +48,39 @@ jQuery(document).ready(function(){
 		jQuery(this).addClass("active")
 	})
 
+	// LineProgressbar js start hare
 
-	$(window).scroll(function(){
-		var htd = $(window).scrollTop();
-
-		if ( htd = 3100) {
-			$('#html').LineProgressbar({
+		$('#html').LineProgressbar({
 				percentage:90,
-				radius: '3px',
+				radius: '2px',
 				height: '10px',
+				backgroundColor: '#292929',
+				fillBackgroundColor: '#FBCA14',
 				});
 			$('#css').LineProgressbar({
 				percentage:80,
-				radius: '3px',
+				radius: '2px',
 				height: '10px',
-				fillBackgroundColor: '#DA4453'
+				backgroundColor: '#292929',
+				fillBackgroundColor: '#FBCA14'
 				});
 						
 			$('#jq').LineProgressbar({
 				percentage:70,
-				radius: '3px',
+				radius: '2px',
 				height: '10px',
-				fillBackgroundColor: '#E0C341'
+				backgroundColor: '#292929',
+				fillBackgroundColor: '#FBCA14'
 				});
 			$('#jv').LineProgressbar({
 				percentage:75,
-				radius: '3px',
+				radius: '2px',
 				height: '10px',
-				fillBackgroundColor: '#008140'
-				});
-		} else {
-
-		}
-	})
+				backgroundColor: '#292929',
+				fillBackgroundColor: '#FBCA14'
+				});	
 	
-				
+		// LineProgressbar js end hare
 
 
 
@@ -117,28 +115,46 @@ jQuery(document).ready(function(){
 
 	})
 	
-		jQuery(".percent").percentageLoader({
+	// Communication circle progress js
+
+		jQuery(".percent-one").percentageLoader({
 			   valElement: 'p',
 			   strokeWidth: 25,
 			   bgColor: '#d9d9d9',
-			   ringColor: '#d53f3f',
+			   ringColor: '#FBCA14',
 			   textColor: '#9a9a9a',
 			   fontSize: '12px',
 			   fontWeight: 'normal',
-			   window: 500,
+			 });
+
+		// Creativity circle progress js
+
+		jQuery(".percent-two").percentageLoader({
+			   valElement: 'p',
+			   strokeWidth: 25,
+			   bgColor: '#d9d9d9',
+			   ringColor: '#FBCA14',
+			   textColor: '#9a9a9a',
+			   fontSize: '12px',
+			   fontWeight: 'normal',
+			 });
+
+		// Project Management circle progress js
+
+		jQuery(".percent-three").percentageLoader({
+			   valElement: 'p',
+			   strokeWidth: 25,
+			   bgColor: '#d9d9d9',
+			   ringColor: '#FBCA14',
+			   textColor: '#9a9a9a',
+			   fontSize: '12px',
+			   fontWeight: 'normal',
 			 });
 
 
 
 
 
-
-
-
-
-
-
-	
 
 
 
