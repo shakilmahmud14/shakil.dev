@@ -57,8 +57,7 @@ html {
 .side-nav {
 	width: 80px;
 	height: 100%;
-	background: rgba(42, 42, 46, 0.7);
-	backdrop-filter: blur(5px);
+	background: #1D1D20;
 	flex-direction: column;
 	justify-content: space-between;
 }
