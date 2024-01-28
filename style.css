@@ -16,6 +16,9 @@
 html {
 	scroll-behavior: smooth;
 }
+body {
+	background: #FFFFFF;
+}
 
  .main-preloader {
       position: fixed;
@@ -925,9 +928,13 @@ nav {
 	color: #74747F !important;
 	font-family: Poppins;
 }
+#dp-dots li {
+	margin-left: 5px;
+}
 
-
-
+#dp-dots li.active {
+	border: 1px solid #999;
+}
 
 
 /*top button css hare*/
@@ -946,5 +953,119 @@ nav {
 	font-size: 40px;
 	background: rgba(0, 0, 0, 0.1);
 	border-radius: 50%;
+}
+
+/*section projrct style end hare*/
+/*clint area style start hare*/
+.clint-content {
+	margin-top: 70px;
+	padding: 20px 20px;
+	border-left: 5px solid #FAC921;
+}
+.clint-content p {
+	font-family: Titillium-Web;
+	font-weight: 14px;
+	font-weight: 600;
+	text-transform: capitalize;
+	color: #999;
+	padding-bottom: 15px;
+	display: inline-block;
+	border-bottom: 2px dotted #999;
+}
+.clint-content h2 {
+	font-size: 40px;
+	text-transform: uppercase;
+	font-family: Poppins;
+	font-weight: 800;
+	padding: 10px 0px;
+}
+.clint-content h2 span {
+	color: #fac921;
+}
+.clits-text {
+	font-family: Poppins;
+	font-size: 11px;
+	color: #878c9f;
+	font-weight: 500;
+	border-bottom: none !important;
+	line-height: 24px;
+}
+.clint-carousel {
+	padding: 20px 0px;
+}
+.carausel-content {
+	margin-top: 50px;
+	margin-left: 10px;
+	margin-right: 10px;
+	padding: 30px 65px;
+	position: relative;
+	border-radius: 4px;
+	border: 1px solid #eee;
+	float: left;
+	width: 100%;
+}
+.carausel-content p {
+	font-family: Poppins;
+	font-style: italic;
+	color: #878c9f;
+	font-weight: 500;
+	font-size: 15px;
+}
+.quite-icon {
+	position: absolute;
+	top: 10px;
+	left: 10px;
+	font-size: 40px;
+	color: #ccc;
+}
+.quite-icon-two {
+	position: absolute;
+	bottom: 10px;
+	right: 10px;
+	font-size: 40px;
+	color: #ccc;
+}
+.clint-avatar {
+	position: absolute;
+	right: 70px;
+	top: -40px;
+}
+.clint-avatar img {
+	width: 80px;
+	height: 80px;
+	border-radius: 100%;
+	position: relative;
+	z-index: 20;
+}
+.clint-avatar::before {
+	content: '';
+	position: absolute;
+	border-radius: 100%;
+	top: -8px;
+	bottom: -8px;
+	left: -8px;
+	right: -8px;
+	border: 1px solid #eee;
+	background: #ffff;
+	z-index: 1;
+}
+.rating-card i {
+	font-size: 12px;
+	margin-right: 5px;
+	color: #FAC921;
+}
+.clint-name p {
+	font-family: Poppins;
+	font-size: 11px;
+	font-weight: 800;
+	color: #666666;
+	margin-top: 20px;
+}
+.clint-name p span {
+	color: #999999;
+}
+.clint-carousel .owl-item img {
+	width: 80px;
+	height: 80px;
 }
 

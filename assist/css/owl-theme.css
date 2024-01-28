@@ -1,0 +1,75 @@
+.main-content {
+    position: relative;
+}
+
+.main-content .owl-theme .custom-nav {
+    position: absolute;
+    top: 20%;
+    left: 0;
+    right: 0;
+}
+
+.main-content .owl-theme .custom-nav .owl-prev, .main-content .owl-theme .custom-nav .owl-next {
+    position: absolute;   
+    color: inherit;
+    background: none;
+    border: none;
+    z-index: 100;
+}
+
+.main-content .owl-theme .custom-nav .owl-prev i, .main-content .owl-theme .custom-nav .owl-next i {
+    font-size: 30px;
+    color: red;
+}
+
+.main-content .owl-theme .custom-nav .owl-prev {
+    left: 0;
+}
+
+.main-content .owl-theme .custom-nav .owl-next {
+    right: 0;
+}
+
+
+
+
+
+
+
+
+
+
+
+/* nav arrow 2 */
+
+.main-content2 {
+    position: relative;
+}
+
+.main-content2 .owl-theme .custom-nav {
+    position: absolute;
+    top: 20%;
+    left: 0;
+    right: 0;
+}
+
+.main-content2 .owl-theme .custom-nav .owl-prev, .main-content2 .owl-theme .custom-nav .owl-next {
+    position: absolute;   
+    color: inherit;
+    background: none;
+    border: none;
+    z-index: 100;
+}
+
+.main-content2 .owl-theme .custom-nav .owl-prev i, .main-content2 .owl-theme .custom-nav .owl-next i {
+    font-size: 30px;
+    color: red;
+}
+
+.main-content2 .owl-theme .custom-nav .owl-prev {
+    left: 0;
+}
+
+.main-content2 .owl-theme .custom-nav .owl-next {
+    right: 0;
+}

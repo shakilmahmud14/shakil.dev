@@ -20,7 +20,16 @@ jQuery(document).ready(function(){
 	});
 
 
-
+ 
+        $.scrollIt({
+          upKey: 38,             // key code to navigate to the next section
+          downKey: 40,           // key code to navigate to the previous section
+          easing: 'linear',      // the easing function for animation
+          scrollTime: 500,       // how long (in ms) the animation takes
+          activeClass: 'active', // class given to the active nav element
+          onPageChange: null,    // function(pageIndex) that is called when page is changed
+        }); 
+ 
 
 
 
@@ -152,7 +161,7 @@ jQuery(document).ready(function(){
 			 });
 		// Project Management circle progress js end
 
-
+// project carousel js start hare
 		function detect_active(){
 		    // get active
 		    var get_active = $("#dp-slider .dp_item:first-child").data("class");
@@ -202,7 +211,23 @@ jQuery(document).ready(function(){
 		    detect_active();
 		  });
 
-
+// project js end hare
+// cllint owl carousel js start hare
+		 $(".clint-carousel").owlCarousel({
+      autoplay:true,
+      loop:true,
+      items: 3,
+      nav:false,
+      dots:true,
+      responsive : {
+        0 : {
+          items: 1,
+        },
+        768 : {
+          items: 3,
+        }
+      }
+    });
 
 
 

@@ -180,10 +180,7 @@
 	content: "";
 	width: 50%;
 }
-.project-des {
-	color: #D1D4D5 !important;
-	font-family: Poppins;
-}
+
 .dp-content {
 	padding-left: 15px;
 }
@@ -197,8 +194,16 @@
 	padding: 5px 30px;
 	font-size: 10px;
 }
-
-
+/*project area responsive end hare*/
+/*clints area responsive hare*/
+.clint-content {
+	margin-top: 20px;
+	padding: 20px 20px;
+	border-left: 5px solid #FAC921;
+}
+.clint-content h2 {
+	font-size: 30px;
+}
 
 
 }

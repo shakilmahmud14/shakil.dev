@@ -6,7 +6,7 @@
 	<title>Developer Shakil Ahamed</title>
 			<!-- favicon -->
 	<link rel="icon" type="image/x-icon" href="favicon/favicon.png">
-		<!-- font awsome css file -->
+		<!-- font awsome  file -->
 	<script src="https://kit.fontawesome.com/7bd8e98560.js" crossorigin="anonymous"></script>
 	<link rel="stylesheet" href="assist/css/all.css">
 		<!-- bootsrap file -->
@@ -14,7 +14,11 @@
 		<!-- line Progressbar css -->
 	<link rel="stylesheet" href="assist/css/lineProgressbar.css">
 	<link rel="stylesheet" href="assist/css/jQuery-plugin-progressbar.css">
+			<!-- carousel css file -->
 	<link rel="stylesheet" href="assist/css/advance-carousel.css">
+			<!-- owl carousel css file -->
+	<link rel="stylesheet" href="assist/css/owl-theme.css">
+	<link rel="stylesheet" href="assist/css/owl.carousel.css">
 		<!-- main css file -->
 	<link rel="stylesheet" href="style.css">
 		<!-- responsive css file -->
@@ -98,7 +102,7 @@
 	</div>
 </div>
 
-<div class="feature-area">
+<div class="feature-area" data-scroll-index='1'>
 	<div class="feature-content">
 		<div class="overly text-right">
 			<div class="overly-bg"><img src="images/bg-effect3.png"></div>
@@ -132,14 +136,15 @@
 			<p>Scroll down</p>
 			<i class="fa-solid fa-sort-down fa-bounce pl-2 scroll-icon"></i>
 		</div>
-		<div class="navItem">
+		<div class="navItem menu-area">
 			<ul>
-				<li class="nav-item"><a class="nav-link active" href="#">Top <i class="fa-solid fa-sort-up"></i></a></li>
-				<li class="nav-item"><a class="nav-link" href="#about">About</a></li>
-				<li class="nav-item"><a class="nav-link" href="#resume">Resume</a></li>
-				<li class="nav-item"><a class="nav-link" href="#skills">Skills</a></li>
-				<li class="nav-item"><a class="nav-link" href="#project">Project</a></li>
-				<li class="nav-item"><a class="nav-link" href="#">Clint</a></li>
+				<li class="nav-item"><a class="nav-link active" href="#" data-scroll-nav='1'>Top <i class="fa-solid fa-sort-up"></i></a></li>
+				<li class="nav-item"><a class="nav-link" href="#about" data-scroll-nav='2'>About</a></li>
+				<li class="nav-item"><a class="nav-link" href="#resume" data-scroll-nav='3'>Resume</a></li>
+				<li class="nav-item"><a class="nav-link" href="#skills" data-scroll-nav='4'>Skills</a></li>
+				<li class="nav-item"><a class="nav-link" href="#project" data-scroll-nav='5'>Project</a></li>
+				<li class="nav-item"><a class="nav-link" href="#clints" data-scroll-nav='6'>Clint</a></li>
+				
 			</ul>
 		</div>
 	</div>
@@ -150,7 +155,7 @@
 	<!-- nav area end hare -->
 	<!-- about area start hare -->
 
-<div class="about-area" id="about">
+<div class="about-area" id="about" data-scroll-index='2'>
 	<div class="container">
 		<div class="about-content py-4">
 			<div class="row">
@@ -210,7 +215,7 @@
 												<p>4 Years</p>
 												<p>BA (Dgree)</p>
 												<p>+8801707670743</p>
-												<p>skkshahariarshakil@gmail.com</p>
+												<p>developershakil14@gmail.com</p>
 											</div>
 										</div>
 									</div>
@@ -253,7 +258,7 @@
 </div>
 	<!-- feature box end hare -->
 	<!-- project box start hare -->
-<div class="project-box">
+<div class="project-box" data-scroll-index='2'>
 	<div class="parallax-bgarea" data-parallax="scroll" data-image-src="images/bg-1.jpg">
 		<div class="container">
 			<div class="parallax-box-conent ">
@@ -308,7 +313,7 @@
 	<!-- about area end hare -->
 	<!-- resume area start hare -->
 
-<section class="section-resume" id="resume">
+<section class="section-resume" id="resume" data-scroll-index='3'>
 	<div class="resume-bg">
 		<div class="resume-overly">
 			<div class="container">
@@ -411,7 +416,7 @@
 </section>
 	<!-- resume area end hare -->
 	<!-- section skills area start hare -->
-<section class="section-skills" id="skills">
+<section class="section-skills" id="skills"data-scroll-index='4'>
 	<div class="skills-area">
 		<div class="parallax-bgarea" data-parallax="scroll" data-image-src="images/parallax-bg.jpg">
 			<div class="skills-overly"></div>
@@ -559,7 +564,7 @@
 	</div>
 </section>
 <!-- section skills area end hare -->
-<section class="project-area" id="project">
+<section class="project-area" id="project" data-scroll-index='5'>
 	<div class="container">
 		<div class="project-content">
 			<div class="project-title">
@@ -655,6 +660,118 @@
 		</div>
 	</div>
 </section>
+		<!-- section project end hare -->
+<section class="section-clint" id="clints" data-scroll-index='6'>
+	<div class="container">
+		<div class="clint-content">
+			<p>reviews</p>
+			<h2>My clints and <span>testimonials</span></h2>
+			<p class="clits-text">In ut odio libero, at vulputate urna. Nulla tristique mi a massa convallis cursus. Nulla eu mi magna. <br>Etiam suscipit commodo gravida.</p>
+		</div>
+		<div class="clint-carousel owl-theme owl-carousel">
+			<div class="clint-carousel-item">
+				<div class="carausel-content">
+					<div class="quite-icon">
+						<i class="fa-solid fa-quote-right"></i>
+					</div>
+					<div class="clint-avatar">
+						<img src="images/clint-img1.jpg" alt="">
+					</div>
+					<div class="rating-card">
+						<i class="fa-solid fa-star"></i>
+						<i class="fa-solid fa-star"></i>
+						<i class="fa-solid fa-star"></i>
+						<i class="fa-solid fa-star"></i>
+						<i class="fa-solid fa-star"></i>
+					</div>
+					<div class="clint-name">
+						<p> Mohit- <span>Happy clints</span>	</p>
+					</div>
+					<p>"Good services. I have bought this service in the past and will place a new order soon again. Lorem ipsum dolor sit amet, consectetur adipisicing elit, sed do eiusmod
+					tempor incididunt ut labore et dolore magna aliqua." </p>
+					<div class="quite-icon-two">
+						<i class="fa-solid fa-quote-right"></i>
+					</div>
+				</div>
+			</div>
+			<div class="clint-carousel-item">
+				<div class="carausel-content">
+					<div class="quite-icon">
+						<i class="fa-solid fa-quote-right"></i>
+					</div>
+					<div class="clint-avatar">
+						<img src="images/clint-img2.jpg" alt="">
+					</div>
+					<div class="rating-card">
+						<i class="fa-solid fa-star"></i>
+						<i class="fa-solid fa-star"></i>
+						<i class="fa-solid fa-star"></i>
+						<i class="fa-solid fa-star"></i>
+						<i class="fa-solid fa-star"></i>
+					</div>
+					<div class="clint-name">
+						<p> Shaarx- <span>Happy clints</span>	</p>
+					</div>
+					<p>"Good services. I have bought this service in the past and will place a new order soon again. Lorem ipsum dolor sit amet, consectetur adipisicing elit, sed do eiusmod
+					tempor incididunt ut labore et dolore magna aliqua." </p>
+					<div class="quite-icon-two">
+						<i class="fa-solid fa-quote-right"></i>
+					</div>
+				</div>
+			</div>
+			<div class="clint-carousel-item">
+				<div class="carausel-content">
+					<div class="quite-icon">
+						<i class="fa-solid fa-quote-right"></i>
+					</div>
+					<div class="clint-avatar">
+						<img src="images/pp.webp" alt="">
+					</div>
+					<div class="rating-card">
+						<i class="fa-solid fa-star"></i>
+						<i class="fa-solid fa-star"></i>
+						<i class="fa-solid fa-star"></i>
+						<i class="fa-solid fa-star"></i>
+						<i class="fa-solid fa-star"></i>
+					</div>
+					<div class="clint-name">
+						<p> Jaspreet Singh- <span>Happy clints</span>	</p>
+					</div>
+					<p>"Good services. I have bought this service in the past and will place a new order soon again. Lorem ipsum dolor sit amet, consectetur adipisicing elit, sed do eiusmod
+					tempor incididunt ut labore et dolore magna aliqua." </p>
+					<div class="quite-icon-two">
+						<i class="fa-solid fa-quote-right"></i>
+					</div>
+				</div>
+			</div>
+			<div class="clint-carousel-item">
+				<div class="carausel-content">
+					<div class="quite-icon">
+						<i class="fa-solid fa-quote-right"></i>
+					</div>
+					<div class="clint-avatar">
+						<img src="images/clint-img3.jpg" alt="">
+					</div>
+					<div class="rating-card">
+						<i class="fa-solid fa-star"></i>
+						<i class="fa-solid fa-star"></i>
+						<i class="fa-solid fa-star"></i>
+						<i class="fa-solid fa-star"></i>
+						<i class="fa-solid fa-star"></i>
+					</div>
+					<div class="clint-name">
+						<p> Mary- <span>Happy clints</span>	</p>
+					</div>
+					<p>"Good services. I have bought this service in the past and will place a new order soon again. Lorem ipsum dolor sit amet, consectetur adipisicing elit, sed do eiusmod
+					tempor incididunt ut labore et dolore magna aliqua." </p>
+					<div class="quite-icon-two">
+						<i class="fa-solid fa-quote-right"></i>
+					</div>
+				</div>
+			</div>
+		</div>
+	</div>
+</section>
 	<!-- top button start hare -->
 <div class="top-button">
 	<i class="fa-solid fa-circle-chevron-up shadow"></i>
@@ -676,6 +793,9 @@
 <script src="assist/js/jQuery-plugin-progressbar.js"></script>	
 <script src="https://cdnjs.cloudflare.com/ajax/libs/raphael/2.3.0/raphael.min.js"></script>	
 <script src="assist/js/jQuery.circleProgressBar.min.js"></script>
+<script src="assist/js/scrollIt.js"></script>
+		<!-- owl carousel js file -->
+<script src="assist/js/owl.carousel.js"></script>
 
 
 	<!-- main javascript jile -->
