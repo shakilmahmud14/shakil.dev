@@ -180,18 +180,16 @@ body {
 	font-size: 14px;
 	color: #DDDDDD;
 }
-.menuText .close {
+.menuText .closea {
 	display: none;
 	margin-bottom: 20px;
 }
 .close-on .menu-on {
 	display: none;
 }
-.close-on .close {
+.close-on .closea {
 	display: block !important;
-	font-size: 14px;
-	color: #DDDDDD;
-	padding-top: 5PX;
+	margin: 0;
 
 }
 /*	side copyright-content start hare*/
@@ -1060,6 +1058,7 @@ nav {
 	font-weight: 800;
 	color: #666666;
 	margin-top: 20px;
+	font-style: normal;
 }
 .clint-name p span {
 	color: #999999;
