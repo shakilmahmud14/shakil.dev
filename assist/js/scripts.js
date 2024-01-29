@@ -48,6 +48,7 @@ jQuery(document).ready(function(){
 	jQuery(".toggle-btn").click(function(){
 		jQuery(".main-navbar").slideToggle()
 		jQuery(".menuText").toggleClass("close-on").css("opacity","1");
+		jQuery(this).toggleClass("menu-btn-active");
 	})
 
 	//side navbar js end hare
