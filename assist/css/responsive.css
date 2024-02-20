@@ -2,199 +2,246 @@
 - Tablate/Others
 ============================================================================= */
 @media screen and (min-width: 768px) and (max-width: 991px) {
-/*	side-navbar area start hare*/
-.side-navbar {
-width: 100%;
-height: initial;
-position: fixed;
-float: none !important;
-display: block !important;
-overflow: hidden !important;
+
+    /*	side-navbar area start hare*/
+    .side-navbar {
+        width: 100%;
+        height: initial;
+        position: fixed;
+        float: none !important;
+        display: block !important;
+        overflow: hidden !important;
+    }
+
+    .side-nav {
+        width: 100%;
+        overflow: hidden !important;
+        display: block !important;
+    }
+
+    .social-icon {
+        display: none;
+    }
+
+    .share {
+        display: none;
+    }
+
+    .logo {
+        width: 100%;
+        display: flex;
+        justify-content: space-between;
+        overflow: hidden !important;
+    }
+
+    .logo img {
+        width: 40%;
+        padding: 0;
+    }
+
+    .toggle-btn {
+        margin: 0 !important;
+    }
+
+    .toggle-btn p {
+        opacity: 1;
+    }
+
+    .container {
+        padding-top: 70px;
+    }
+
+    .main-navbar {
+        width: 100%;
+        height: initial;
+        text-align: center;
+        padding-top: 70px;
+    }
+
+    .navbar-nav {
+        width: 100%;
+        text-align: center;
+    }
+
+    .nav-logo img {
+        width: 50%;
+    }
+
+    .nav-2 {
+        display: none;
+    }
+
+    .content-item h2 {
+        font-size: 40px;
+    }
+
+    .resume-btn2 {
+        display: initial;
+    }
+
+    .resume-btn {
+        display: none;
+    }
 }
-.side-nav {
-width: 100%;
-overflow: hidden !important;
-display: block !important;
-}
-.social-icon {
-display: none;
-}
-.share {
-display: none;
-}
-.logo {
-width: 100%;
-display:flex;
-justify-content: space-between;
-overflow: hidden !important;
-}
-.logo img {
-width: 40%;
-padding: 0;
-}
-.toggle-btn  {
-margin: 0 !important;
-}
-.toggle-btn p {
-opacity: 1;
-}
-.container {
-padding-top: 70px;
-}
-.main-navbar {
-width: 100%;
-height: initial;
-text-align: center;
-padding-top: 70px;
-}
-.navbar-nav {
-width: 100%;
-text-align: center;
-}
-.nav-logo img {
-width: 50%;
-}
-.nav-2 {
-display: none;
-}
-.content-item h2 {
-font-size: 40px;
-}
-.resume-btn2 {
-display: initial;
-}
-.resume-btn {
-display: none;
-}
-}
+
 /* =============================================================================
 Mobile Phone
 ============================================================================= */
 @media screen and (max-width: 767px) {
-/*	side-navbar area start hare*/
-.side-navbar {
-width: 100%;
-height: initial;
-position: fixed;
-float: none !important;
-display: block !important;
-overflow: hidden !important;
-}
-.side-nav {
-width: 100%;
-overflow: hidden !important;
-display: block !important;
-}
-.social-icon {
-display: none;
-}
-.share {
-display: none;
-}
-.logo {
-width: 100%;
-display:flex;
-justify-content: space-between;
-overflow: hidden !important;
-}
-.logo img {
-width: 40%;
-padding: 0;
-}
-.toggle-btn  {
-margin: 0 !important;
-}
-.toggle-btn p {
-opacity: 1;
-}
-.menu-btn-active .span-2 {
-display: block;
-}
-.menu-btn-active .span-1 {
-width: 100%;
-transform: initial;
-padding: 0;
-margin: 0;
-}
-.menu-btn-active .span-3 {
-width: 100%;
-transform: initial;
-padding: 0;
-margin: 0;
-}
-.main-navbar {
-width: 100%;
-height: initial;
-text-align: center;
-padding-top: 70px;
-}
-.navbar-nav {
-width: 100%;
-text-align: center;
-}
-.nav-logo img {
-width: 50%;
-}
-/*	navbar area end hare*/
-/*feature area start hare*/
-.feature-content {
-background-position: right;
-}
-.content-item h2 {
-font-size: 30px;
-}
-/*	content nav area start hare*/
-.nav-2 {
-display: none;
-}
-/*	content nav end hare*/
-.resume-btn2 {
-display: initial;
-}
-.resume-btn {
-display: none;
-}
-/*resume area start hare*/
-.work-experience-area h3 {
-margin-top: 20px;
-}
-/*design area st hare*/
-.ci-num  {
-display: none;
-}
-.technical-skills-content {
-padding-bottom: 20px;
-}
-/*design area end hare*/
-/*project area responsive st hare*/
-.project-title h2 {
-font-size: 25px;
-}
-.project-title h2::after {
-content: "";
-width: 50%;
-}
-.dp-content {
-padding-left: 15px;
-}
-.dp-content h2 {
-font-size: 20px;
-}
-.dp-content p {
-font-size: 14px;
-}
-.dp-content .site-btn {
-padding: 5px 30px;
-font-size: 10px;
-}
-/*project area responsive end hare*/
-/*clints area responsive hare*/
-.clint-content {
-margin-top: 20px;
-padding: 20px 20px;
-border-left: 5px solid #FAC921;
-}
-.clint-content h2 {
-font-size: 30px;
-}
+
+    /*	side-navbar area start hare*/
+    .side-navbar {
+        width: 100%;
+        height: initial;
+        position: fixed;
+        float: none !important;
+        display: block !important;
+        overflow: hidden !important;
+    }
+
+    .side-nav {
+        width: 100%;
+        overflow: hidden !important;
+        display: block !important;
+    }
+
+    .social-icon {
+        display: none;
+    }
+
+    .share {
+        display: none;
+    }
+
+    .logo {
+        width: 100%;
+        display: flex;
+        justify-content: space-between;
+        overflow: hidden !important;
+    }
+
+    .logo img {
+        width: 40%;
+        padding: 0;
+    }
+
+    .toggle-btn {
+        margin: 0 !important;
+    }
+
+    .toggle-btn p {
+        opacity: 1;
+    }
+
+    .menu-btn-active .span-2 {
+        display: block;
+    }
+
+    .menu-btn-active .span-1 {
+        width: 100%;
+        transform: initial;
+        padding: 0;
+        margin: 0;
+    }
+
+    .menu-btn-active .span-3 {
+        width: 100%;
+        transform: initial;
+        padding: 0;
+        margin: 0;
+    }
+
+    .main-navbar {
+        width: 100%;
+        height: initial;
+        text-align: center;
+        padding-top: 70px;
+    }
+
+    .navbar-nav {
+        width: 100%;
+        text-align: center;
+    }
+
+    .nav-logo img {
+        width: 50%;
+    }
+
+    /*	navbar area end hare*/
+    /*feature area start hare*/
+    .feature-content {
+        background-position: right;
+    }
+
+    .content-item h2 {
+        font-size: 30px;
+    }
+
+    /*	content nav area start hare*/
+    .nav-2 {
+        display: none;
+    }
+
+    /*	content nav end hare*/
+    .resume-btn2 {
+        display: initial;
+    }
+
+    .resume-btn {
+        display: none;
+    }
+
+    /*resume area start hare*/
+    .work-experience-area h3 {
+        margin-top: 20px;
+    }
+
+    /*design area st hare*/
+    .ci-num {
+        display: none;
+    }
+
+    .technical-skills-content {
+        padding-bottom: 20px;
+    }
+
+    /*design area end hare*/
+    /*project area responsive st hare*/
+    .project-title h2 {
+        font-size: 25px;
+    }
+
+    .project-title h2::after {
+        content: "";
+        width: 50%;
+    }
+
+    .dp-content {
+        padding-left: 15px;
+    }
+
+    .dp-content h2 {
+        font-size: 20px;
+    }
+
+    .dp-content p {
+        font-size: 14px;
+    }
+
+    .dp-content .site-btn {
+        padding: 5px 30px;
+        font-size: 10px;
+    }
+
+    /*project area responsive end hare*/
+    /*clints area responsive hare*/
+    .clint-content {
+        margin-top: 20px;
+        padding: 20px 20px;
+        border-left: 5px solid #FAC921;
+    }
+
+    .clint-content h2 {
+        font-size: 30px;
+    }
 }
