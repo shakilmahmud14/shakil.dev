@@ -1260,16 +1260,25 @@ Service Page Style Start hare
     color: #79797A;
 }
 .get-in-touch-text {
-    background: #79797A;
-    font-family: Titillium-Web;
-    padding: 5px 10px;
+    background: #000;
+    padding: 15px 20px;
     position: absolute;
-   top: 70%;
-   right: 7%;
+   top: 115%;
+   right: 0%;
+   opacity: 0;
+   transition: all 500ms ease;
 }
-.get-in-touch-text p {
+.get-in-touch-text a {
     padding: 0;
     margin: 0;
+    text-decoration: none;
+    color: #fff;
+    text-transform: uppercase;
+    font-size: 12px;
+    font-family: Titillium-Web;
+}
+.get-in-content:hover .get-in-touch-text {
+    opacity: 1;
 }
 
 
